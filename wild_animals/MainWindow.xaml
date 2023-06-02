@@ -1,0 +1,40 @@
+﻿<Window x:Class="wild_animals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wild_animals"
+        mc:Ignorable="d"
+        Title="Мир животных" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Source="E:\Практика\wild_animals\wild_animals\Pictures\elephant.jpg"/>
+        <Image Grid.Column="2" Source="E:\Практика\wild_animals\wild_animals\Pictures\giraffe.jpg"/>
+        <Image Grid.Column="4" Source="E:\Практика\wild_animals\wild_animals\Pictures\tiger.jpg"/>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="Слон" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" 
+                       Text="Предками слона были мамонты. Их ели древние люди"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBlock Text="Жираф" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" 
+                       Text="Африканское парнокопытное млекопитающее, самое высокое из ныне живущих наземных животных и самое крупное жвачное животное."/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="4">
+            <TextBlock Text="Тигр" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" 
+                       Text="Хищное млекопитающее семейства кошачьих, один из пяти видов рода пантер, принадлежащего к подсемейству больших кошек."/>
+        </StackPanel>
+    </Grid>
+</Window>
