@@ -24,7 +24,7 @@
         <StackPanel Grid.Row="1" Grid.Column="0">
             <TextBlock Text="Слон" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
             <TextBlock TextWrapping="Wrap" 
-                       Text="Предками слона были мамонты. Их ели древние люди"/>
+                       Text="семейство млекопитающих отряда хоботных. Самые крупные наземные животные (высота до 4-4,5 м, масса до 5, иногда до 7,5 т)."/>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="2">
             <TextBlock Text="Жираф" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
