@@ -13,6 +13,8 @@
             <ColumnDefinition Width="90*"/>
             <ColumnDefinition Width="5*"/>
             <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -21,6 +23,7 @@
         <Image Source="E:\Практика\wild_animals\wild_animals\Pictures\elephant.jpg"/>
         <Image Grid.Column="2" Source="E:\Практика\wild_animals\wild_animals\Pictures\giraffe.jpg"/>
         <Image Grid.Column="4" Source="E:\Практика\wild_animals\wild_animals\Pictures\tiger.jpg"/>
+        <Image Grid.Column="6" Source="E:\Практика\wild_animals\wild_animals\Pictures\1577700104248.jpg"/>
         <StackPanel Grid.Row="1" Grid.Column="0">
             <TextBlock Text="Слон" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
             <TextBlock TextWrapping="Wrap" 
@@ -35,6 +38,11 @@
             <TextBlock Text="Тигр" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
             <TextBlock TextWrapping="Wrap" 
                        Text="Хищное млекопитающее семейства кошачьих, один из пяти видов рода пантер, принадлежащего к подсемейству больших кошек."/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="6">
+            <TextBlock Text="Семик-дурачок" FontFamily="Century Gothic" FontSize="20" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" 
+                       Text="На данном фото продемонстрирован дикий собак. На голове у него современный причесон. (Все так ходят)."/>
         </StackPanel>
     </Grid>
 </Window>
